@@ -10,7 +10,6 @@ class VehiculesRepository{
     if(response.statusCode == 200) {
       final List<Vehicules> vehicules = [];
       final List<dynamic> json = jsonDecode(response.body);
-      print(json);
       if(json.isNotEmpty) {
         final List<dynamic> features = json;
         for (var feature in features) {
