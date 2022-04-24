@@ -18,7 +18,7 @@ En terme de vues, on retrouve la home qui est une vue sans fonctionnalités dema
 
 La vue Dashboard permet d'afficher les différentes annomalies des véhicules s'il y en. Pour l'instant il s'agit uniquement des véhicules favoris. 
 
-La vue view-vehicules permet de voir l'ensemble des véhicules présents. On retrouve le bouton favori à droite d'un élément. Lors du clic sur une véhicule, on obtient l'ensemble de ses informations dans la vue view_vehicule.
+La vue view-vehicules permet de voir l'ensemble des véhicules présents. On retrouve le bouton favori à droite d'un élément. Lors du clic sur un véhicule, on obtient l'ensemble de ses informations dans la vue view_vehicule.
 
 La dernière vue est la vue add_vehicule permettant d'ajouter un véhicule à la base de données en envoyant en POST le véhicule à l'API.
 
